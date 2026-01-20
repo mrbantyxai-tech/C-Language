@@ -1,7 +1,8 @@
 #include<stdio.h>
-//#include<conio.h>
+#include<conio.h>
+
 void main(){
-//	clrscr();
+	clrscr();
 	int alpha=97;
 
 	do{
@@ -9,6 +10,6 @@ void main(){
 		alpha += 4;
 
 	}while(alpha<=122);
-	//getch();
+	getch();
 
 }
