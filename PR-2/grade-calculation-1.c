@@ -4,7 +4,8 @@ void main(){
 	
 	// Task 1:- Grade Calcualation
 	
-	int score,grade;
+	int score;
+	char grade;
 	
 	printf("Enter Your Score :- ");
 	scanf("%d",&score);
@@ -44,7 +45,7 @@ void main(){
 	
 	// Task 3:- Eligibility Check
 	
-	if (grade == 'A'&&'B'&&'C'&&'D'){
+	if (grade == 'A'&&'B'&&'C'&&'D'&&'E'){
 		printf(" Congratulations! You are Eligible for the next level");
 	}else{
 		printf(" Please try again next time");
