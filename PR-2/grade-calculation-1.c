@@ -45,7 +45,7 @@ void main(){
 	
 	// Task 3:- Eligibility Check
 	
-	if (grade == 'A'&&'B'&&'C'&&'D'&&'E'){
+	if (grade == 'A' || grade == 'B' || grade == 'C' || grade == 'D' || grade == 'E'){
 		printf(" Congratulations! You are Eligible for the next level");
 	}else{
 		printf(" Please try again next time");
