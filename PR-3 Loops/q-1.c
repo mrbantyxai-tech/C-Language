@@ -6,7 +6,7 @@ void main(){
 	int alpha=97;
 
 	do{
-		printf("\n%c",alpha);
+		printf("%c",alpha);
 		alpha += 4;
 
 	}while(alpha<=122);
